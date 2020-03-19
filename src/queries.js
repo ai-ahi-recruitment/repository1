@@ -1,10 +1,10 @@
 const Pool = require('pg').Pool;
 const pool = new Pool({
-    user: 'gsivasankar',
+    user: '<username>',
     host: 'localhost',
-    database: 'gsivasankar',
-    password: 'Shivarafale15',
-    port: 5432,
+    database: '<Database Name>',
+    password: '<Password>',
+    port: <port number>,
 });
 
 const getdet = (req,res) =>{
